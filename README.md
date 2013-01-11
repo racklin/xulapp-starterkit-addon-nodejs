@@ -6,15 +6,15 @@ This Add-on Contains NodeJS v0.8.17 MacOSX(32bit/64bit) and Linux(32bit/64bit) a
 
 Download pre-build XPI
 -----------------------------
-Download pre-build XPI in [downloads](https://github.com/racklin/xulapp-starterkit-addon-nodejs/tree/master/downloads)
+Download pre-build XPI in [Download XPI](https://s3.amazonaws.com/xulapp/addons/xulapp-starterkit-addon-nodejs-0.8.17.xpi)
 
 
 Get started
 -----------------------------
-XULApp.NodeJS.createProcess to create a nsIProcess and initialized with node execute file.
+Using XULApp.NodeJS.createProcess() to create a nsIProcess and initialized with node execute file.
 Then you can using 'run' for running node process in foreground , using 'runAsync' running node process in background.
 
-NodeJS also add an Default Observer Handler , when XULApp StarterKit quit, it will kill all node running process.
+XULApp.NodeJS.createProcess() auto add a default observer handler, It will kill all running node process when XULApp quit.
 
 More detail, please see [nsIProcess](https://developer.mozilla.org/en-US/docs/XPCOM_Interface_Reference/nsIProcess).
 

@@ -1,0 +1,7 @@
+content nodejs chrome/content/
+content nodejs-runtime nodejs/windows-x86/  abi=WINNT_x86-msvc
+content nodejs-runtime nodejs/darwin-x86/   abi=Darwin_x86-gcc3
+content nodejs-runtime nodejs/darwin-x64/   abi=Darwin_x86_64-gcc3
+content nodejs-runtime nodejs/linux-x86/    abi=Linux_x86-gcc3
+content nodejs-runtime nodejs/linux-x64/    abi=Linux_x86_64-gcc3
+

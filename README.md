@@ -31,23 +31,14 @@ process.run(true, args, args.length);
 
 ### Running express web application from XULApp (Crazy idea)
 ```
-var processObserverHandler = {
-    observe: function(subject, topic, data) {
-        switch (topic) {
-            // Process has finished running and closed
-            case "process-finished":
-                break;
-            // Process failed to run
-            case "process-failed":
-                break;
-        }
-    }
-};
-
 var process = XULApp.NodeJS.createProcess();
 var args = ["YOUR EXPRESS APP"];
 process.runAsync(args, args.length);
 ```
+#### express web application demo addon 
+Running express web application from XULApp demo addon is here:
+[expressjs-demo](https://github.com/racklin/xulapp-starterkit-addon-expressjs-demo)
+
 
 License
 -----------------------------

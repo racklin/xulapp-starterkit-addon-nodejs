@@ -6,7 +6,7 @@ This Add-on Contains NodeJS v0.8.17 MacOSX(32bit/64bit) and Linux(32bit/64bit) a
 
 Download pre-build XPI
 -----------------------------
-Download pre-build XPI in [Download XPI](https://s3.amazonaws.com/xulapp/addons/xulapp-starterkit-addon-nodejs-0.8.17.xpi)
+Download pre-build XPI in [Download XPI](https://github.com/racklin/xulapp-starterkit-addon-nodejs/releases)
 
 
 Get started
